@@ -1,4 +1,4 @@
-# Bandit 0
+# Bandit 1
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 ```sh
@@ -6,7 +6,7 @@ bandit0@bandit:~$ cat readme
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 ```
 
-# Bandit 1
+# Bandit 2
 
 ```sh
 bandit1@bandit:/home$ cat /home/bandit1/-
@@ -14,7 +14,7 @@ CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 bandit1@bandit:/home$ 
 ```
 
-# Bandit 2
+# Bandit 3
 
 ```sh
 bandit2@bandit:~$ cat /home/bandit2/spaces\ in\ this\ filename 
@@ -22,7 +22,7 @@ UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 bandit2@bandit:~$ 
 ```
 
-# Bandit 3
+# Bandit 4
 
 ```sh
 bandit3@bandit:~$ ls -l
@@ -33,7 +33,7 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 bandit3@bandit:~$ 
 ```
 
-# Bandit 4
+# Bandit 5
 
 ```sh
 bandit4@bandit:~/inhere$ find . -readable -size 33c
@@ -55,7 +55,7 @@ bandit4@bandit:~/inhere$ cat ./*
 
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-# Bandit 5
+# Bandit 6
 
 ```sh
 bandit5@bandit:~$ ls
@@ -68,7 +68,7 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 ```
 
-# Bandit 6
+# Bandit 7
 
 ```sh
 bandit6@bandit:~$ find / -size 33c -group bandit6 -user bandit7
@@ -129,7 +129,7 @@ bandit6@bandit:~$
 
 ```
 
-# Bandit 7
+# Bandit 8
 
 ```sh
 bandit7@bandit:~$ ls
@@ -142,7 +142,7 @@ bandit7@bandit:~$
 
 ```
 
-# Bandit 8
+# Bandit 9
 
 ```sh
 bandit8@bandit:~$ cat data.txt | sort | uniq -cu
@@ -150,7 +150,7 @@ bandit8@bandit:~$ cat data.txt | sort | uniq -cu
 
 ```
 
-# Bandit 9
+# Bandit 10
 
 ```sh
 bandit9@bandit:~$ strings data.txt 
@@ -159,7 +159,7 @@ bandit9@bandit:~$ strings data.txt
 ...
 ```
 
-# Bandit 10
+# Bandit 11
 
 ```sh
 bandit10@bandit:~$ ls
@@ -173,7 +173,7 @@ The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 bandit10@bandit:~$ 
 ```
 
-# Bandit 11
+# Bandit 12
 
 ```sh
 bandit11@bandit:~$ wc data.txt 
